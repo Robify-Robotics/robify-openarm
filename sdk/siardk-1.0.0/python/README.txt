@@ -1,0 +1,1 @@
+Description is available at http://emanual.vkrobot.com/docs/en/software/vkrobot/siardk/overview/

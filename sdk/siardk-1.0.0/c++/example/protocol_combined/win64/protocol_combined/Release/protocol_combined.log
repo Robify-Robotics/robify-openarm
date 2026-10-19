@@ -1,0 +1,176 @@
+﻿  protocol_combined.cpp
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_read.h(43): warning C4251: “siar::GroupBulkRead::id_list_”: class“std::vector<uint8_t,std::allocator<_Ty>>”需要有 dll 接口由 class“siar::GroupBulkRead”的客户端使用
+          with
+          [
+              _Ty=uint8_t
+          ]
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\packet_handler.h(205): note: 参见“std::vector<uint8_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=uint8_t
+          ]
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_read.h(44): warning C4251: “siar::GroupBulkRead::address_list_”: class“std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupBulkRead”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_read.h(44): note: 参见“std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_read.h(45): warning C4251: “siar::GroupBulkRead::length_list_”: class“std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupBulkRead”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_read.h(44): note: 参见“std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_read.h(46): warning C4251: “siar::GroupBulkRead::data_list_”: class“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupBulkRead”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_read.h(46): note: 参见“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_read.h(47): warning C4251: “siar::GroupBulkRead::error_list_”: class“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupBulkRead”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_read.h(46): note: 参见“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_write.h(43): warning C4251: “siar::GroupBulkWrite::id_list_”: class“std::vector<uint8_t,std::allocator<_Ty>>”需要有 dll 接口由 class“siar::GroupBulkWrite”的客户端使用
+          with
+          [
+              _Ty=uint8_t
+          ]
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\packet_handler.h(205): note: 参见“std::vector<uint8_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=uint8_t
+          ]
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_write.h(44): warning C4251: “siar::GroupBulkWrite::address_list_”: class“std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupBulkWrite”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_read.h(44): note: 参见“std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_write.h(45): warning C4251: “siar::GroupBulkWrite::length_list_”: class“std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupBulkWrite”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_read.h(44): note: 参见“std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_write.h(46): warning C4251: “siar::GroupBulkWrite::data_list_”: class“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupBulkWrite”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_read.h(46): note: 参见“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_sync_read.h(43): warning C4251: “siar::GroupSyncRead::id_list_”: class“std::vector<uint8_t,std::allocator<_Ty>>”需要有 dll 接口由 class“siar::GroupSyncRead”的客户端使用
+          with
+          [
+              _Ty=uint8_t
+          ]
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\packet_handler.h(205): note: 参见“std::vector<uint8_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=uint8_t
+          ]
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_sync_read.h(44): warning C4251: “siar::GroupSyncRead::data_list_”: class“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupSyncRead”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_read.h(46): note: 参见“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_sync_read.h(45): warning C4251: “siar::GroupSyncRead::error_list_”: class“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupSyncRead”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_read.h(46): note: 参见“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_sync_write.h(43): warning C4251: “siar::GroupSyncWrite::id_list_”: class“std::vector<uint8_t,std::allocator<_Ty>>”需要有 dll 接口由 class“siar::GroupSyncWrite”的客户端使用
+          with
+          [
+              _Ty=uint8_t
+          ]
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\packet_handler.h(205): note: 参见“std::vector<uint8_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=uint8_t
+          ]
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_sync_write.h(44): warning C4251: “siar::GroupSyncWrite::data_list_”: class“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupSyncWrite”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\include\siardk\group_bulk_read.h(46): note: 参见“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\example\protocol_combined\protocol_combined.cpp(78): warning C4273: “getch”: dll 链接不一致
+  c:\program files (x86)\windows kits\10\include\10.0.22621.0\ucrt\conio.h(444): note: 参见“getch”的前一个定义
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\example\protocol_combined\protocol_combined.cpp(95): warning C4273: “kbhit”: dll 链接不一致
+  c:\program files (x86)\windows kits\10\include\10.0.22621.0\ucrt\conio.h(450): note: 参见“kbhit”的前一个定义
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\example\protocol_combined\protocol_combined.cpp(156): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\example\protocol_combined\protocol_combined.cpp(77): note: 参见“getch”的声明
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\example\protocol_combined\protocol_combined.cpp(169): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\example\protocol_combined\protocol_combined.cpp(77): note: 参见“getch”的声明
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\example\protocol_combined\protocol_combined.cpp(205): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c++\example\protocol_combined\protocol_combined.cpp(77): note: 参见“getch”的声明
+    正在创建库 F:\广州威控\工作\2-产品\1-自研\SIARDK\siardk-1.0.0\c++\example\protocol_combined\win64\Release\protocol_combined.lib 和对象 F:\广州威控\工作\2-产品\1-自研\SIARDK\siardk-1.0.0\c++\example\protocol_combined\win64\Release\protocol_combined.exp
+  正在生成代码
+  All 6 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  protocol_combined.vcxproj -> F:\广州威控\工作\2-产品\1-自研\SIARDK\siardk-1.0.0\c++\example\protocol_combined\win64\Release\protocol_combined.exe

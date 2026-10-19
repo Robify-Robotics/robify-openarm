@@ -1,0 +1,16 @@
+﻿  group_bulk_read.c
+  group_bulk_write.c
+  group_sync_read.c
+  group_sync_write.c
+  packet_handler.c
+  port_handler.c
+  port_handler_windows.c
+  protocol1_packet_handler.c
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c\src\siardk\protocol1_packet_handler.c(748): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c\src\siardk\protocol1_packet_handler.c(749): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+  protocol2_packet_handler.c
+    正在创建库 C:\Users\PC\Desktop\siar sdk\siarSDK-3.7.31\siarSDK-3.7.31\c\build\win32\output\siar_x86_c.lib 和对象 C:\Users\PC\Desktop\siar sdk\siarSDK-3.7.31\siarSDK-3.7.31\c\build\win32\output\siar_x86_c.exp
+  正在生成代码
+  All 208 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  siar_x86_c.vcxproj -> C:\Users\PC\Desktop\siar sdk\siarSDK-3.7.31\siarSDK-3.7.31\c\build\win32\output\siar_x86_c.dll

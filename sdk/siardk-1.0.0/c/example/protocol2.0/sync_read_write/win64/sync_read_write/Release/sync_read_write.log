@@ -1,0 +1,44 @@
+﻿  sync_read_write.c
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(70): warning C4273: “getch”: dll 链接不一致
+  c:\program files (x86)\windows kits\10\include\10.0.22621.0\ucrt\conio.h(444): note: 参见“getch”的前一个定义
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(87): warning C4273: “kbhit”: dll 链接不一致
+  c:\program files (x86)\windows kits\10\include\10.0.22621.0\ucrt\conio.h(450): note: 参见“kbhit”的前一个定义
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(128): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(131): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(169): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(170): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(172): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(174): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(176): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(184): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(185): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(187): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(189): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(191): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(238): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(239): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(248): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(249): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(291): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(292): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(294): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(296): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(298): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(302): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(303): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(305): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(307): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(309): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(151): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(69): note: 参见“getch”的声明
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(164): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(69): note: 参见“getch”的声明
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(217): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\sync_read_write\sync_read_write.c(69): note: 参见“getch”的声明
+    正在创建库 F:\广州威控\工作\2-产品\1-自研\SIARDK\siardk-1.0.0\c\example\protocol2.0\sync_read_write\win64\Release\sync_read_write.lib 和对象 F:\广州威控\工作\2-产品\1-自研\SIARDK\siardk-1.0.0\c\example\protocol2.0\sync_read_write\win64\Release\sync_read_write.exp
+  正在生成代码
+  1 of 7 functions (14.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  sync_read_write.vcxproj -> F:\广州威控\工作\2-产品\1-自研\SIARDK\siardk-1.0.0\c\example\protocol2.0\sync_read_write\win64\Release\sync_read_write.exe

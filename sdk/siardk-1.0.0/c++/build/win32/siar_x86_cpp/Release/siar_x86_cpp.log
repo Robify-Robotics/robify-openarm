@@ -1,0 +1,179 @@
+﻿  group_bulk_read.cpp
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_bulk_read.h(43): warning C4251: “siar::GroupBulkRead::id_list_”: class“std::vector<uint8_t,std::allocator<_Ty>>”需要有 dll 接口由 class“siar::GroupBulkRead”的客户端使用
+          with
+          [
+              _Ty=uint8_t
+          ]
+  c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\packet_handler.h(205): note: 参见“std::vector<uint8_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=uint8_t
+          ]
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_bulk_read.h(44): warning C4251: “siar::GroupBulkRead::address_list_”: class“std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupBulkRead”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_bulk_read.h(44): note: 参见“std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_bulk_read.h(45): warning C4251: “siar::GroupBulkRead::length_list_”: class“std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupBulkRead”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_bulk_read.h(44): note: 参见“std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_bulk_read.h(46): warning C4251: “siar::GroupBulkRead::data_list_”: class“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupBulkRead”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_bulk_read.h(46): note: 参见“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_bulk_read.h(47): warning C4251: “siar::GroupBulkRead::error_list_”: class“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupBulkRead”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_bulk_read.h(46): note: 参见“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\src\siardk\group_bulk_read.cpp(147): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\src\siardk\group_bulk_read.cpp(151): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+  group_bulk_write.cpp
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_bulk_write.h(43): warning C4251: “siar::GroupBulkWrite::id_list_”: class“std::vector<uint8_t,std::allocator<_Ty>>”需要有 dll 接口由 class“siar::GroupBulkWrite”的客户端使用
+          with
+          [
+              _Ty=uint8_t
+          ]
+  c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\packet_handler.h(205): note: 参见“std::vector<uint8_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=uint8_t
+          ]
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_bulk_write.h(44): warning C4251: “siar::GroupBulkWrite::address_list_”: class“std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupBulkWrite”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_bulk_write.h(44): note: 参见“std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_bulk_write.h(45): warning C4251: “siar::GroupBulkWrite::length_list_”: class“std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupBulkWrite”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_bulk_write.h(44): note: 参见“std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_bulk_write.h(46): warning C4251: “siar::GroupBulkWrite::data_list_”: class“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupBulkWrite”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_bulk_write.h(46): note: 参见“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  group_sync_read.cpp
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_sync_read.h(43): warning C4251: “siar::GroupSyncRead::id_list_”: class“std::vector<uint8_t,std::allocator<_Ty>>”需要有 dll 接口由 class“siar::GroupSyncRead”的客户端使用
+          with
+          [
+              _Ty=uint8_t
+          ]
+  c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\packet_handler.h(205): note: 参见“std::vector<uint8_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=uint8_t
+          ]
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_sync_read.h(44): warning C4251: “siar::GroupSyncRead::data_list_”: class“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupSyncRead”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_sync_read.h(44): note: 参见“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_sync_read.h(45): warning C4251: “siar::GroupSyncRead::error_list_”: class“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupSyncRead”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_sync_read.h(44): note: 参见“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  group_sync_write.cpp
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_sync_write.h(43): warning C4251: “siar::GroupSyncWrite::id_list_”: class“std::vector<uint8_t,std::allocator<_Ty>>”需要有 dll 接口由 class“siar::GroupSyncWrite”的客户端使用
+          with
+          [
+              _Ty=uint8_t
+          ]
+  c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\packet_handler.h(205): note: 参见“std::vector<uint8_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=uint8_t
+          ]
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_sync_write.h(44): warning C4251: “siar::GroupSyncWrite::data_list_”: class“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“siar::GroupSyncWrite”的客户端使用
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\include\siardk\group_sync_write.h(44): note: 参见“std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\src\siardk\group_sync_write.cpp(133): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+  packet_handler.cpp
+  port_handler.cpp
+  port_handler_windows.cpp
+  protocol1_packet_handler.cpp
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\src\siardk\protocol1_packet_handler.cpp(704): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+c:\users\pc\desktop\siar sdk\siarsdk-3.7.31\siarsdk-3.7.31\c++\src\siardk\protocol1_packet_handler.cpp(705): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+  protocol2_packet_handler.cpp
+    正在创建库 C:\Users\PC\Desktop\siar sdk\siarSDK-3.7.31\siarSDK-3.7.31\c++\build\win32\output\siar_x86_cpp.lib 和对象 C:\Users\PC\Desktop\siar sdk\siarSDK-3.7.31\siarSDK-3.7.31\c++\build\win32\output\siar_x86_cpp.exp
+  正在生成代码
+  All 596 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  siar_x86_cpp.vcxproj -> C:\Users\PC\Desktop\siar sdk\siarSDK-3.7.31\siarSDK-3.7.31\c++\build\win32\output\siar_x86_cpp.dll

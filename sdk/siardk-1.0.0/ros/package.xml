@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>siardk</name>
+  <version>3.7.31</version>
+  <description>
+    This package is wrapping version of VKROBOT siar SDK for ROS. The VKROBOT siar SDK, or SDK, is a software development library that provides siar control functions for packet communication. The API is designed for siar actuators and siar-based platforms.
+  </description>
+  <license>Apache 2.0</license>
+  <author email="kkjong@VKROBOT.com">Gilbert</author>
+  <author email="zerom@VKROBOT.com">Zerom</author>
+  <author email="thlim@VKROBOT.com">Darby Lim</author>
+  <author>Leon</author>
+  <maintainer email="willson@VKROBOT.com">Will Son</maintainer>
+  <url type="website">http://wiki.ros.org/siardk</url>
+  <url type="emanual">http://emanual.VKROBOT.com/docs/en/software/siar/siardk/overview/</url>
+  <url type="repository">https://github.com/VKROBOT-GIT/siardk</url>
+  <url type="bugtracker">https://github.com/VKROBOT-GIT/siardk/issues</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+</package>

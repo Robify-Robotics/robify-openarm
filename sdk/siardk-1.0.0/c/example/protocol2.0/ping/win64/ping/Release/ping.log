@@ -1,0 +1,19 @@
+﻿  ping.c
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\ping\ping.c(50): warning C4273: “getch”: dll 链接不一致
+  c:\program files (x86)\windows kits\10\include\10.0.22621.0\ucrt\conio.h(444): note: 参见“getch”的前一个定义
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\ping\ping.c(67): warning C4273: “kbhit”: dll 链接不一致
+  c:\program files (x86)\windows kits\10\include\10.0.22621.0\ucrt\conio.h(450): note: 参见“kbhit”的前一个定义
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\ping\ping.c(140): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\ping\ping.c(141): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\ping\ping.c(143): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\ping\ping.c(145): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\ping\ping.c(147): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\ping\ping.c(121): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\ping\ping.c(49): note: 参见“getch”的声明
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\ping\ping.c(134): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\example\protocol2.0\ping\ping.c(49): note: 参见“getch”的声明
+    正在创建库 F:\广州威控\工作\2-产品\1-自研\SIARDK\siardk-1.0.0\c\example\protocol2.0\ping\win64\Release\ping.lib 和对象 F:\广州威控\工作\2-产品\1-自研\SIARDK\siardk-1.0.0\c\example\protocol2.0\ping\win64\Release\ping.exp
+  正在生成代码
+  All 6 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  ping.vcxproj -> F:\广州威控\工作\2-产品\1-自研\SIARDK\siardk-1.0.0\c\example\protocol2.0\ping\win64\Release\ping.exe

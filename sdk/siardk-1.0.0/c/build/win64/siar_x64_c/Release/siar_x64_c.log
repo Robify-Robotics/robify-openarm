@@ -1,0 +1,18 @@
+﻿  group_bulk_read.c
+  group_bulk_write.c
+  group_sync_read.c
+  group_sync_write.c
+  packet_handler.c
+  port_handler.c
+  port_handler_windows.c
+  protocol1_packet_handler.c
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\src\siardk\protocol1_packet_handler.c(748): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+f:\广州威控\工作\2-产品\1-自研\siardk\siardk-1.0.0\c\src\siardk\protocol1_packet_handler.c(749): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+  protocol2_packet_handler.c
+    正在创建库 F:\广州威控\工作\2-产品\1-自研\SIARDK\siardk-1.0.0\c\build\win64\output\siar_x64_c.lib 和对象 F:\广州威控\工作\2-产品\1-自研\SIARDK\siardk-1.0.0\c\build\win64\output\siar_x64_c.exp
+  正在生成代码
+  207 of 208 functions (99.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  siar_x64_c.vcxproj -> F:\广州威控\工作\2-产品\1-自研\SIARDK\siardk-1.0.0\c\build\win64\output\siar_x64_c.dll
