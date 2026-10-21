@@ -1,36 +1,33 @@
-# Robot Description files for OpenArm
+# OpenArm 1.1 description
 
-This package contains description files to generate OpenArm URDFs (Universal Robot Description Files). See [documentation](https://docs.openarm.dev/software/description) for details.
+This package replaces the previous upstream v1.0/v2.0 description with the user-supplied OpenArm 1.1 model.
 
-<!-- ## Project Entry Points
+## Corrections
 
-Use one of these entry documents depending on what you are working on:
+- Replaced the missing `meshes/part.stl` visual reference with `meshes/jaw-b.STL`.
+- Replaced relative mesh paths with portable `package://openarm_description/meshes/...` URIs.
+- Added `scale="0.001 0.001 0.001"` to all 41 visual and collision mesh references to convert millimeter geometry to meters.
+- Preserved all joint origins, limits, axes, link names, material values and inertial parameters from the supplied model.
 
-- Active preset-driven robot pipeline:
-  [docs/openarm_v2.0/00_OpenArm_v2.0_Description.md](docs/openarm_v2.0/00_OpenArm_v2.0_Description.md)
-- Minimal legacy compatibility layer for old `v10` robots:
-  [docs/openarm_v1.0/00_OpenArm_v1.0_Compatibility.md](docs/openarm_v1.0/00_OpenArm_v1.0_Compatibility.md)
-- Extraction and helper scripts:
-  [docs/openarm_v2.0/01_URDF_Extract_Scripts.md](docs/openarm_v2.0/01_URDF_Extract_Scripts.md)
+The model contains 22 links, 21 joints and 18 STL files. The entry point is `urdf/Openarm1.1.urdf`.
 
-Recommended starting point:
+## ROS 2 Humble and RViz
 
-- for all new robot assembly, presets, xacro, and URDF generation work, start with `assets/robot/openarm_v2.0`
-- only use `assets/robot/openarm_v1.0` when you need the old `v10 + parallel_link` compatibility path -->
+Install the ROS 2 Humble packages `ament-cmake`, `robot-state-publisher`, `joint-state-publisher-gui` and `rviz2`, and install `colcon` if needed. From the repository root:
 
-## Related links
+```bash
+source /opt/ros/humble/setup.bash
+colcon build --packages-select openarm_description
+source install/setup.bash
+ros2 launch openarm_description display_openarm.launch.py
+```
 
-- 📚 Read the [documentation](https://docs.openarm.dev/software/description)
-- 💬 Join the community on [Discord](https://discord.gg/FsZaZ4z3We)
-- 📬 Contact us through <openarm@enactic.ai>
+Keep the package name and directory structure intact. Build and source the workspace before opening the URDF so ROS can resolve its package URIs.
 
-## License
+## Scope
 
-[Apache License 2.0](LICENSE.txt)
+The launch file displays the robot and provides joint sliders. It does not connect to motors. Inertial parameters are inherited from the supplied export and have not been validated for dynamics. There is no Gazebo integration or hardware control configuration in this package. ROS 1 launch support is not included.
 
-Copyright 2025 Enactic, Inc.
+## Model provenance
 
-## Code of Conduct
-
-All participation in the OpenArm project is governed by our
-[Code of Conduct](CODE_OF_CONDUCT.md).
+The model and meshes were supplied as `Openarm1.1.zip`. The model supplier did not include a license declaration in that archive. The previous Enactic package's Apache license is not asserted over this replacement model. See the repository's third-party notices.

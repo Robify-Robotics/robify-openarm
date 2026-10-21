@@ -7,7 +7,7 @@ OpenArm robot descriptions, the SIAR 485/TTL communication SDK, and an English S
 | Directory | Contents |
 | --- | --- |
 | [`sdk/siardk-1.0.0`](sdk/siardk-1.0.0) | SIAR SDK source, examples and supplied build files for C, C++, C#, Java, LabVIEW, MATLAB, Python and ROS |
-| [`robot_description/openarm_description`](robot_description/openarm_description) | Official OpenArm description package, including v1.0 and v2.0 models, meshes, configuration and launch resources |
+| [`robot_description/openarm_description`](robot_description/openarm_description) | Corrected OpenArm 1.1 URDF, 18 STL meshes and a ROS 2 Humble RViz launch file |
 | [`docs/01-485_TTL_Communicate_SDK_Complete.pdf`](docs/01-485_TTL_Communicate_SDK_Complete.pdf) | Consolidated English reference covering SDK download, C, C++, ROS and Python APIs |
 
 To download everything, select **Code > Download ZIP**, or run:
@@ -16,44 +16,40 @@ To download everything, select **Code > Download ZIP**, or run:
 git clone https://github.com/Robify-Robotics/robify-openarm.git
 ```
 
-## OpenArm v1.0
+## OpenArm 1.1
 
-The Xacro entry point is:
-
-```text
-robot_description/openarm_description/assets/robot/openarm_v1.0/urdf/openarm_v10.urdf.xacro
-```
-
-The expanded upstream example is:
+The previous v1.0/v2.0 descriptions have been replaced by the corrected user-supplied model:
 
 ```text
-robot_description/openarm_description/assets/robot/openarm_v1.0/urdf/example/v1.urdf
+robot_description/openarm_description/urdf/Openarm1.1.urdf
 ```
 
-Keep the ROS package name `openarm_description` and its internal directory structure. The model uses package-relative mesh and configuration paths. The v1 example contains two seven-joint arms and grippers.
+The package fixes the missing jaw mesh reference, uses portable ROS package URIs, and converts STL dimensions from millimeters to meters. See the [model README](robot_description/openarm_description/README.md) for details.
 
-In a ROS 2 workspace with the package dependencies installed:
+With ROS 2 Humble and the package dependencies installed, run from the repository root:
 
 ```bash
+source /opt/ros/humble/setup.bash
 colcon build --packages-select openarm_description
 source install/setup.bash
-ros2 launch openarm_description display_openarm.launch.py arm_type:=v10
+ros2 launch openarm_description display_openarm.launch.py
 ```
 
-The launch file defaults to a v2 model, so specify `arm_type:=v10` for the v1 model. The `sdk/COLCON_IGNORE` marker keeps the SDK's ROS examples outside ROS 2 package discovery.
+The `sdk/COLCON_IGNORE` marker keeps SDK examples outside ROS 2 package discovery.
 
 ## SIAR SDK
 
 Browse [`sdk/siardk-1.0.0`](sdk/siardk-1.0.0) for language-specific implementations, examples and build files. Visual Studio and VS Code cache directories (`.vs` and `.vscode`) were omitted from this copy. The retained upstream files are unchanged.
 
-Collecting these resources does not establish hardware compatibility between OpenArm and SIAR motors. Joint mapping, communication configuration and hardware driver integration must be implemented for the target hardware. OpenArm's optional control definitions refer to `openarm_hardware/OpenArmHW`.
+Collecting these resources does not establish hardware compatibility between OpenArm and SIAR motors. Joint mapping, communication configuration and hardware driver integration must be implemented for the target hardware. The replacement OpenArm 1.1 package provides visualization only; it includes no hardware control plugin.
 
 ## Validation
 
-- Downloaded files were checked against the upstream Git objects.
-- OpenArm XML/Xacro files were parsed, and the v1 example's link/joint structure and all 22 unique mesh references were checked.
-- The English PDF was checked for content completeness and rendered for layout review.
-- ROS 2/RViz execution and physical motor operation have not been tested.
+- The corrected URDF was checked for 22 links, 21 joints and 41 valid mesh references across 18 STL files.
+- All visual and collision meshes use a 0.001 scale; all other supplied model parameters are preserved.
+- The corrected model was tested with ROS 2 Humble and RViz on Ubuntu 22.04. Mesh-loading errors were eliminated.
+- The English SDK PDF was checked for content completeness and rendered for layout review.
+- Physical motor operation and Gazebo dynamics have not been tested.
 
 ## Licensing and upstream versions
 

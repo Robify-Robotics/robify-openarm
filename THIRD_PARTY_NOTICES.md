@@ -1,13 +1,14 @@
 # Third-party components
 
-## OpenArm description package
+## OpenArm 1.1 model
 
-- Upstream: https://github.com/enactic/openarm_description
-- Commit: `206eb8a4cf2e5e564536b4f5366ef369843a4aa7`
-- License declared by upstream: Apache License 2.0
-- License file: [`robot_description/openarm_description/LICENSE.txt`](robot_description/openarm_description/LICENSE.txt)
-- Copyright: Enactic, Inc.; additional notices are retained in the upstream files.
-- Changes: none to retained upstream files; the complete package is included under `robot_description/` without Git history.
+- Source: user-supplied `Openarm1.1.zip`.
+- Original archive SHA-256: `e2c46df9b86d3ac14b98ab671029da9f7ce1d7c9e2eb0992d2ef0f1a0822d3d6`.
+- No license file or license declaration was included by the model supplier.
+- Changes: missing `part.stl` reference corrected to `jaw-b.STL`; mesh paths converted to ROS package URIs; all 41 mesh references scaled by 0.001; ROS 2 package, RViz launch and documentation added.
+- The STL files are unchanged from the supplied archive. Joint and inertial parameters are unchanged.
+
+This replaces the previously included Enactic OpenArm description package (upstream commit `206eb8a4cf2e5e564536b4f5366ef369843a4aa7`). That older package remains available in Git history with its original Apache-2.0 notices; its license is not asserted over the replacement model.
 
 ## SIAR SDK 1.0.0
 

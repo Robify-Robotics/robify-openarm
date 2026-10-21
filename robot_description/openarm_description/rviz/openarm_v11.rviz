@@ -1,0 +1,37 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+Visualization Manager:
+  Class: ""
+  Global Options:
+    Fixed Frame: __assembly_component_root_comp_OpenArm_Base_1_1
+    Frame Rate: 30
+  Displays:
+    - Class: rviz_default_plugins/RobotModel
+      Name: OpenArm 1.1
+      Enabled: true
+      Description Source: Topic
+      Description Topic:
+        Value: /robot_description
+        Durability Policy: Transient Local
+      Visual Enabled: true
+      Collision Enabled: false
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Enabled: true
+      Cell Size: 0.1
+      Plane Cell Count: 20
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 2.5
+      Pitch: 0.3
+      Yaw: 0.8
+      Focal Point:
+        X: 1.02
+        Y: 0
+        Z: 0.45
+  Enabled: true
+Window Geometry:
+  Width: 1350
+  Height: 950

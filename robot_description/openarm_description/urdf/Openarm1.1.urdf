@@ -1,0 +1,653 @@
+<?xml version="1.0"?>
+<robot name="OpenArm_V1.1">
+
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5707963267948966 0 1.5707963267948966" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/OpenArm_Base_1.1.STL" />
+      </geometry>
+      <material name="base_link_mat">
+        <color rgba="0.50196471 0.50196471 0.50196471 1.00000000"/>
+      </material>
+    </visual>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_2">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J1-1.1.STL" />
+      </geometry>
+      <material name="link_1792479169573_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J1-1.1.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_3">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J2-1.1.STL" />
+      </geometry>
+      <material name="link_1792479763276_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J2-1.1.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_4">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J3-1.1.STL" />
+      </geometry>
+      <material name="link_1792479961925_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J3-1.1.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_5">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J4-1.1.STL" />
+      </geometry>
+      <material name="link_1792480148372_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J4-1.1.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_6">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J5-1.1.STL" />
+      </geometry>
+      <material name="link_1792480555269_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J5-1.1.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_7">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J6-1.1.STL" />
+      </geometry>
+      <material name="link_1792480642068_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J6-1.1.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_8">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J7-1.1.STL" />
+      </geometry>
+      <material name="link_1792480737758_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J7-1.1.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_9">
+    <visual>
+      <origin xyz="0 0 -0.1145" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/gripper-1.1.STL" />
+      </geometry>
+      <material name="link_1792480813653_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.1145" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/gripper-1.1.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_10">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/jaw-a.STL" />
+      </geometry>
+      <material name="link_1792481281877_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/jaw-a.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_11">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/jaw-b.STL" />
+      </geometry>
+      <material name="link_1792481473812_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/jaw-b.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_12">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J1-1.1-right.STL" />
+      </geometry>
+      <material name="link_1792484323926_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J1-1.1-right.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_13">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J2-1.1-right.STL" />
+      </geometry>
+      <material name="link_1792484408565_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J2-1.1-right.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_14">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J3-1.1-right.STL" />
+      </geometry>
+      <material name="link_1792484726757_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J3-1.1-right.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_15">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J4-1.1.STL" />
+      </geometry>
+      <material name="link_1792484804149_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J4-1.1.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_16">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J5-1.1-right.STL" />
+      </geometry>
+      <material name="link_1792484914436_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J5-1.1-right.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_17">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J6-1.1-right.STL" />
+      </geometry>
+      <material name="link_1792485055693_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J6-1.1-right.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_18">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J7-1.1-right.STL" />
+      </geometry>
+      <material name="link_1792485108645_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J7-1.1-right.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_19">
+    <visual>
+      <origin xyz="0 0 -0.1145" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/gripper-1.1-right.STL" />
+      </geometry>
+      <material name="link_1792485190701_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.1145" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/gripper-1.1-right.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_20">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/jaw-a.STL" />
+      </geometry>
+      <material name="link_1792485357141_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/jaw-a.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="link_21">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/jaw-b.STL" />
+      </geometry>
+      <material name="link_1792485455821_mat">
+        <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/jaw-b.STL" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.25" rpy="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1" />
+    </inertial>
+  </link>
+
+  <link name="__assembly_component_root_comp_OpenArm_Base_1_1">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0" />
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+    </inertial>
+  </link>
+
+  <joint name="joint_1" type="fixed">
+    <parent link="base_link" />
+    <child link="link_2" />
+    <origin xyz="-0.03 0 0.698" rpy="0 0 1.5707963267948966" />
+    <axis xyz="0 1 0" />
+  </joint>
+
+  <joint name="joint_2" type="revolute">
+    <parent link="link_2" />
+    <child link="link_3" />
+    <origin xyz="0 0.1223 0" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.57" upper="1" effort="100" velocity="10" />
+  </joint>
+
+  <joint name="joint_3" type="revolute">
+    <parent link="link_3" />
+    <child link="link_4" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-0.05" upper="1.57" effort="100" velocity="10" />
+  </joint>
+
+  <joint name="joint_4" type="revolute">
+    <parent link="link_4" />
+    <child link="link_5" />
+    <origin xyz="0 0 -0.21925" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-1.57" upper="1.57" effort="100" velocity="10" />
+  </joint>
+
+  <joint name="joint_5" type="revolute">
+    <parent link="link_5" />
+    <child link="link_6" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-2" upper="0" effort="100" velocity="10" />
+  </joint>
+
+  <joint name="joint_6" type="revolute">
+    <parent link="link_6" />
+    <child link="link_7" />
+    <origin xyz="0 0 -0.216" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-1.57" upper="1.57" effort="100" velocity="10" />
+  </joint>
+
+  <joint name="joint_7" type="revolute">
+    <parent link="link_7" />
+    <child link="link_8" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-0.7" upper="0.7" effort="100" velocity="10" />
+  </joint>
+
+  <joint name="joint_8" type="revolute">
+    <parent link="link_8" />
+    <child link="link_9" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.57" upper="1.57" effort="100" velocity="10" />
+  </joint>
+
+  <joint name="joint_9" type="prismatic">
+    <parent link="link_9" />
+    <child link="link_10" />
+    <origin xyz="0 0.01848 -0.1145" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="0" upper="0.045" effort="7" velocity="20.944" />
+  </joint>
+
+  <joint name="joint_10" type="prismatic">
+    <parent link="link_9" />
+    <child link="link_11" />
+    <origin xyz="0 -0.01848 -0.1145" rpy="0 0 3.141592653589793" />
+    <axis xyz="0 1 0" />
+    <limit lower="0" upper="0.045" effort="7" velocity="20.944" />
+  </joint>
+
+  <joint name="joint_11" type="fixed">
+    <parent link="base_link" />
+    <child link="link_12" />
+    <origin xyz="0.03 0 0.698" rpy="0 0 1.5707963267948966" />
+    <axis xyz="0 1 0" />
+  </joint>
+
+  <joint name="joint_12" type="revolute">
+    <parent link="link_12" />
+    <child link="link_13" />
+    <origin xyz="0 -0.1223 0" rpy="0 3.141592653589793 3.141592653589793" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1" upper="1.57" effort="100" velocity="10" />
+  </joint>
+
+  <joint name="joint_13" type="revolute">
+    <parent link="link_13" />
+    <child link="link_14" />
+    <origin xyz="0 0 0" rpy="3.141592653589793 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-1.57" upper="0.05" effort="100" velocity="10" />
+  </joint>
+
+  <joint name="joint_14" type="revolute">
+    <parent link="link_14" />
+    <child link="link_15" />
+    <origin xyz="0 0 -0.21925" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-1.57" upper="1.57" effort="100" velocity="10" />
+  </joint>
+
+  <joint name="joint_15" type="revolute">
+    <parent link="link_15" />
+    <child link="link_16" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-2" upper="0" effort="100" velocity="10" />
+  </joint>
+
+  <joint name="joint_16" type="revolute">
+    <parent link="link_16" />
+    <child link="link_17" />
+    <origin xyz="0 0 -0.216" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-1.57" upper="1.57" effort="100" velocity="10" />
+  </joint>
+
+  <joint name="joint_17" type="revolute">
+    <parent link="link_17" />
+    <child link="link_18" />
+    <origin xyz="0 0 0" rpy="3.141592653589793 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-0.7" upper="0.7" effort="100" velocity="10" />
+  </joint>
+
+  <joint name="joint_18" type="revolute">
+    <parent link="link_18" />
+    <child link="link_19" />
+    <origin xyz="0 0 0" rpy="0 3.141592653589793 3.141592653589793" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.57" upper="1.57" effort="100" velocity="10" />
+  </joint>
+
+  <joint name="joint_19" type="prismatic">
+    <parent link="link_19" />
+    <child link="link_20" />
+    <origin xyz="0 0.01848 -0.1145" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="0" upper="0.045" effort="100" velocity="10" />
+  </joint>
+
+  <joint name="joint_20" type="prismatic">
+    <parent link="link_19" />
+    <child link="link_21" />
+    <origin xyz="0 -0.01848 -0.1145" rpy="0 0 3.141592653589793" />
+    <axis xyz="0 1 0" />
+    <limit lower="0" upper="0.045" effort="100" velocity="10" />
+  </joint>
+
+  <joint name="__assembly_component_joint_comp_OpenArm_Base_1_1" type="fixed">
+    <parent link="__assembly_component_root_comp_OpenArm_Base_1_1" />
+    <child link="base_link" />
+    <origin xyz="1.02 0 0.035" rpy="0 0 0" />
+  </joint>
+
+</robot>
