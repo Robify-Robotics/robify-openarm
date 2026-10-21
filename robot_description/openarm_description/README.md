@@ -1,33 +1,18 @@
-# OpenArm 1.1 description
+# OpenArm 1.1
 
-This package replaces the previous upstream v1.0/v2.0 description with the user-supplied OpenArm 1.1 model.
+This directory contains the corrected robot model and its 18 STL meshes:
 
-## Corrections
-
-- Replaced the missing `meshes/part.stl` visual reference with `meshes/jaw-b.STL`.
-- Replaced relative mesh paths with portable `package://openarm_description/meshes/...` URIs.
-- Added `scale="0.001 0.001 0.001"` to all 41 visual and collision mesh references to convert millimeter geometry to meters.
-- Preserved all joint origins, limits, axes, link names, material values and inertial parameters from the supplied model.
-
-The model contains 22 links, 21 joints and 18 STL files. The entry point is `urdf/Openarm1.1.urdf`.
-
-## ROS 2 Humble and RViz
-
-Install the ROS 2 Humble packages `ament-cmake`, `robot-state-publisher`, `joint-state-publisher-gui` and `rviz2`, and install `colcon` if needed. From the repository root:
-
-```bash
-source /opt/ros/humble/setup.bash
-colcon build --packages-select openarm_description
-source install/setup.bash
-ros2 launch openarm_description display_openarm.launch.py
+```text
+Openarm1.1.urdf
+meshes/
 ```
 
-Keep the package name and directory structure intact. Build and source the workspace before opening the URDF so ROS can resolve its package URIs.
+Keep the URDF and `meshes` directory together. Mesh paths are relative to the URDF directory. Configure your loader to resolve those paths from this directory, or adapt the paths to your application. Some tools, including RViz, require resource URI configuration rather than resolving bare relative mesh paths automatically.
 
-## Scope
+The model does not require a specific ROS version. No launch files, ROS package manifests, build files or RViz configuration are included.
 
-The launch file displays the robot and provides joint sliders. It does not connect to motors. Inertial parameters are inherited from the supplied export and have not been validated for dynamics. There is no Gazebo integration or hardware control configuration in this package. ROS 1 launch support is not included.
+The missing `part.stl` reference is corrected to `jaw-b.STL`. All 41 visual and collision mesh references use `scale="0.001 0.001 0.001"` to convert millimeter geometry to meters. Joint origins, limits, axes and inertial parameters are unchanged.
 
-## Model provenance
+The model contains 22 links and 21 joints. Inertial parameters have not been validated for dynamics. The supplier did not include a license declaration in the original archive; see the repository's third-party notices.
 
-The model and meshes were supplied as `Openarm1.1.zip`. The model supplier did not include a license declaration in that archive. The previous Enactic package's Apache license is not asserted over this replacement model. See the repository's third-party notices.
+Validated with the ROS-independent yourdfpy loader: all 21 visual and 20 collision mesh instances loaded, meter-scale bounds were checked, and all 18 movable joints were exercised at two configurations within the supplied limits. This checks loading and transforms, not physical collision clearance or dynamic accuracy.

@@ -5,7 +5,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="1.5707963267948966 0 1.5707963267948966" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/OpenArm_Base_1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/OpenArm_Base_1.1.STL" />
       </geometry>
       <material name="base_link_mat">
         <color rgba="0.50196471 0.50196471 0.50196471 1.00000000"/>
@@ -22,7 +22,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J1-1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J1-1.1.STL" />
       </geometry>
       <material name="link_1792479169573_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -31,7 +31,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J1-1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J1-1.1.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -45,7 +45,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J2-1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J2-1.1.STL" />
       </geometry>
       <material name="link_1792479763276_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -54,7 +54,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J2-1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J2-1.1.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -68,7 +68,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J3-1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J3-1.1.STL" />
       </geometry>
       <material name="link_1792479961925_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -77,7 +77,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J3-1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J3-1.1.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -91,7 +91,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J4-1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J4-1.1.STL" />
       </geometry>
       <material name="link_1792480148372_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -100,7 +100,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J4-1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J4-1.1.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -114,7 +114,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J5-1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J5-1.1.STL" />
       </geometry>
       <material name="link_1792480555269_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -123,7 +123,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J5-1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J5-1.1.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -137,7 +137,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J6-1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J6-1.1.STL" />
       </geometry>
       <material name="link_1792480642068_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -146,7 +146,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J6-1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J6-1.1.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -160,7 +160,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J7-1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J7-1.1.STL" />
       </geometry>
       <material name="link_1792480737758_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -169,7 +169,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J7-1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J7-1.1.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -183,7 +183,7 @@
     <visual>
       <origin xyz="0 0 -0.1145" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/gripper-1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/gripper-1.1.STL" />
       </geometry>
       <material name="link_1792480813653_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -192,7 +192,7 @@
     <collision>
       <origin xyz="0 0 -0.1145" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/gripper-1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/gripper-1.1.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -206,7 +206,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/jaw-a.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/jaw-a.STL" />
       </geometry>
       <material name="link_1792481281877_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -215,7 +215,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/jaw-a.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/jaw-a.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -229,7 +229,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/jaw-b.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/jaw-b.STL" />
       </geometry>
       <material name="link_1792481473812_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -238,7 +238,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/jaw-b.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/jaw-b.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -252,7 +252,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J1-1.1-right.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J1-1.1-right.STL" />
       </geometry>
       <material name="link_1792484323926_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -261,7 +261,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J1-1.1-right.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J1-1.1-right.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -275,7 +275,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J2-1.1-right.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J2-1.1-right.STL" />
       </geometry>
       <material name="link_1792484408565_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -284,7 +284,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J2-1.1-right.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J2-1.1-right.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -298,7 +298,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J3-1.1-right.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J3-1.1-right.STL" />
       </geometry>
       <material name="link_1792484726757_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -307,7 +307,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J3-1.1-right.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J3-1.1-right.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -321,7 +321,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J4-1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J4-1.1.STL" />
       </geometry>
       <material name="link_1792484804149_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -330,7 +330,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J4-1.1.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J4-1.1.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -344,7 +344,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J5-1.1-right.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J5-1.1-right.STL" />
       </geometry>
       <material name="link_1792484914436_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -353,7 +353,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J5-1.1-right.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J5-1.1-right.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -367,7 +367,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J6-1.1-right.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J6-1.1-right.STL" />
       </geometry>
       <material name="link_1792485055693_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -376,7 +376,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J6-1.1-right.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J6-1.1-right.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -390,7 +390,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J7-1.1-right.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J7-1.1-right.STL" />
       </geometry>
       <material name="link_1792485108645_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -399,7 +399,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/J7-1.1-right.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/J7-1.1-right.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -413,7 +413,7 @@
     <visual>
       <origin xyz="0 0 -0.1145" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/gripper-1.1-right.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/gripper-1.1-right.STL" />
       </geometry>
       <material name="link_1792485190701_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -422,7 +422,7 @@
     <collision>
       <origin xyz="0 0 -0.1145" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/gripper-1.1-right.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/gripper-1.1-right.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -436,7 +436,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/jaw-a.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/jaw-a.STL" />
       </geometry>
       <material name="link_1792485357141_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -445,7 +445,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/jaw-a.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/jaw-a.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -459,7 +459,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/jaw-b.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/jaw-b.STL" />
       </geometry>
       <material name="link_1792485455821_mat">
         <color rgba="1.00000000 1.00000000 1.00000000 1.00000000"/>
@@ -468,7 +468,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh scale="0.001 0.001 0.001" filename="package://openarm_description/meshes/jaw-b.STL" />
+        <mesh scale="0.001 0.001 0.001" filename="meshes/jaw-b.STL" />
       </geometry>
     </collision>
     <inertial>

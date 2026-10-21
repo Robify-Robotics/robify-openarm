@@ -5,7 +5,7 @@
 - Source: user-supplied `Openarm1.1.zip`.
 - Original archive SHA-256: `e2c46df9b86d3ac14b98ab671029da9f7ce1d7c9e2eb0992d2ef0f1a0822d3d6`.
 - No license file or license declaration was included by the model supplier.
-- Changes: missing `part.stl` reference corrected to `jaw-b.STL`; mesh paths converted to ROS package URIs; all 41 mesh references scaled by 0.001; ROS 2 package, RViz launch and documentation added.
+- Changes: missing `part.stl` reference corrected to `jaw-b.STL`; mesh paths are relative to the URDF directory; all 41 mesh references scaled by 0.001; English documentation added. ROS-specific launch, build and visualization configuration files are not included.
 - The STL files are unchanged from the supplied archive. Joint and inertial parameters are unchanged.
 
 This replaces the previously included Enactic OpenArm description package (upstream commit `206eb8a4cf2e5e564536b4f5366ef369843a4aa7`). That older package remains available in Git history with its original Apache-2.0 notices; its license is not asserted over the replacement model.
